@@ -15,7 +15,7 @@ public class currencyConverter {
 
         // we consider the currency input
 
-        System.out.println("Enter a Currency: ");
+        System.out.println("Enter a Currency Option: ");
 
         int currencyChoice = scanner.nextInt();
         System.out.println("Enter the amount to convert: ");
@@ -67,5 +67,31 @@ public static void Euro_to_other_currency(double amt) {
     System.out.println(amt + "Euro" + (amt*655.96) + "XAF");
     System.out.println();
 
+}
+
+public static void Dollar_to_other_currency(double amt) {
+    System.out.println("1 Dollar = " + 0.92 + "Euro");
+    System.out.println();
+    System.out.println(amt + "Dollar" + (amt*0.92) + "Euro");
+    System.out.println();
+
+    System.out.println("1 Dollar = " + 10.17 + "SEK");
+    System.out.println();
+    System.out.println(amt + "Dollar" + (amt*10.17) + "SEK");
+    System.out.println();
+
+    System.out.println("1 Dollar = " + 6.86 + "DKK");
+    System.out.println();
+    System.out.println(amt + "Dollar " +(amt*6.86) + "DKK");
+    System.out.println();
+
+    System.out.println("1 Dollar = " + 604.23 + "XAF");
+    System.out.println();
+    System.out.println(amt + "Dollar = " + (amt*604.23) + "XAF");
+    System.out.println();
+
+}
+
+public static void SEK_to_other_currency(double amt) {
 
 }
