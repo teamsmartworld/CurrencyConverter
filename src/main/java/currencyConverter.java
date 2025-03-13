@@ -45,7 +45,7 @@ public class currencyConverter {
         }
     }
 }
-
+//conversion of the Euro to other currencies
 public static void Euro_to_other_currency(double amt) {
     System.out.println("1 Euro = " + 1.09 + "Dollar");
     System.out.println();
