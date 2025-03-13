@@ -91,7 +91,74 @@ public static void Dollar_to_other_currency(double amt) {
     System.out.println();
 
 }
-
+//converting from SEK to other currencies
 public static void SEK_to_other_currency(double amt) {
+    System.out.println("1 SEK = " + 0.09 + "Euro");
+    System.out.println();
+    System.out.println(amt + "SEK " + (amt*0.09) + "Euro");
+    System.out.println();
+
+    System.out.println("1 SEK  = " + 0.10 + "Dollar");
+    System.out.println();
+    System.out.println(amt + "SEK " + (amt*0.10) + "Dollar");
+    System.out.println();
+
+    System.out.println("1 SEK  = " + 0.67 + "DKK");
+    System.out.println();
+    System.out.println(amt + "SEK  " +(amt*0.67) + "DKK");
+    System.out.println();
+
+    System.out.println("1 SEK  = " + 59.26 + "XAF");
+    System.out.println();
+    System.out.println(amt + "SEK  = " + (amt*59.26) + "XAF");
+    System.out.println();
+
+}
+
+//converting from DKK to other currencies
+public static void DKK_to_other_currency(double amt) {
+    System.out.println("1 DKK = " + 0.13 + "Euro");
+    System.out.println();
+    System.out.println(amt + "DKK " + (amt*0.13) + "Euro");
+    System.out.println();
+
+    System.out.println("1 DKK  = " + 0.15 + "Dollar");
+    System.out.println();
+    System.out.println(amt + "DKK " + (amt*0.15) + "Dollar");
+    System.out.println();
+
+    System.out.println("1 DKK = " + 1.48 + "SEK");
+    System.out.println();
+    System.out.println(amt + "DKK  " +(amt*1.48) + "SEK");
+    System.out.println();
+
+    System.out.println("1 DKK  = " + 87.93 + "XAF");
+    System.out.println();
+    System.out.println(amt + "DKK  = " + (amt*87.93) + "XAF");
+    System.out.println();
+
+}
+//converting from XAF to other currencies
+public static void XAF_to_other_currency(double amt) {
+    System.out.println("1 XAF = " + 0.0015 + "Euro");
+    System.out.println();
+    System.out.println(amt + "XAF " + (amt*0.0015) + "Euro");
+    System.out.println();
+
+    System.out.println("1 XAF  = " + 0.0017 + "Dollar");
+    System.out.println();
+    System.out.println(amt + "XAF " + (amt*0.0017) + "Dollar");
+    System.out.println();
+
+    System.out.println("1 XAF = " + 0.0169 + "SEK");
+    System.out.println();
+    System.out.println(amt + "XAF  " +(amt*0.0169) + "SEK");
+    System.out.println();
+
+    System.out.println("1 XAF  = " + 0.0114 + "DKK");
+    System.out.println();
+    System.out.println(amt + "XAF = " + (amt*0.0114) + "DKK");
+    System.out.println();
+
 
 }
